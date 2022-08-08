@@ -1,0 +1,143 @@
+.container {
+    position: relative;
+    width: 360px;
+    height: 800px;
+    background: #FFFFFF;
+}
+
+.navbar {
+    position: absolute;
+    height: 56px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: linear-gradient(268.55deg, #FFD7D7 28.19%, #F9FFFB 98.98%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+#icono {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 310px;
+    top: 16px;
+
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textNav {
+    position: absolute;
+    width: 91px;
+    height: 39px;
+    left: 114px;
+    top: 9px;
+    font-family: 'Marvel';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.pokeicoNav {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 10px;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+
+    position: absolute;
+    height: 25px;
+    left: 71px;
+    right: 71px;
+    top: calc(50% - 25px/2 - 253.5px);
+
+    color: #444B59;
+}
+
+.example-button {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    height: 373px;
+    left: 35px;
+    top: 198px;
+}
+
+.boton1 {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 35px;
+    top: 20px;
+    
+    background: rgba(90, 167, 170, 0.42);
+    border-radius: 15px;
+}
+
+.boton2 {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 35px;
+    top: 110px;
+
+    background: rgba(159, 185, 235, 0.42);
+    border-radius: 15px;
+}
+
+.boton3 {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 35px;
+    top: 200px;
+
+    background: rgba(254, 117, 113, 0.42);
+    border-radius: 15px;
+}
+
+.boton4 {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 35px;
+    top: 290px;
+
+    background: rgba(114, 114, 210, 0.44);
+    border-radius: 15px;
+}
+
+.pokemon {
+    position: absolute;
+    width: 183px;
+    height: 133px;
+    left: 168px;
+    top: 654px;
+}
